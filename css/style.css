@@ -233,10 +233,10 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #fh5co-features {
-  background: #FF9000;
+  background: rgb(255, 144, 0);
 }
 #fh5co-features h2 {
-  color: #fff;
+  color: rgb(0, 0, 0);
 }
 #fh5co-features .services-padding {
   padding: 7em 0;
@@ -256,14 +256,15 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 100px;
   height: 100px;
   margin: 0 auto;
-  background: #FF9000;
+  background: #fff;
   margin-bottom: 20px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   border-radius: 50%;
-  box-shadow: 5px 5px 10px #d97a00,
-              -5px -5px 10px #ffa600;
+  border-style: dashed;
+  border-top-style: solid;
+  border-bottom-style: solid;
 }
 #fh5co-features .feature-left .icon i {
   font-size: 50px;
@@ -278,11 +279,11 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-features .feature-left h3 {
   font-size: 24px;
   font-weight: 400;
-  color: #fff;
+  color: rgb(0, 0, 0);
 }
 #fh5co-features .feature-left p {
   font-size: 16px;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgb(0, 0, 0);
 }
 #fh5co-features .feature-left p:last-child {
   margin-bottom: 0;
@@ -291,15 +292,20 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #000 !important;
 }
 
+#fh5co-skills {
+  background-color: #fff;
+  padding: 7em 0;
+  clear: both;
+}
+
 #fh5co-about,
 #fh5co-resume,
-#fh5co-skills,
 #fh5co-started,
 #fh5co-work,
 #fh5co-blog,
 #fh5co-pricing,
 #fh5co-contact {
-  padding: 7em 0;
+  padding: 3em 0;
   clear: both;
 }
 @media screen and (max-width: 768px) {
